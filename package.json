@@ -1,0 +1,11 @@
+{
+  "name": "iconic-item-mancer-site",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Iconic Item Mancer Web para Multiverse D616",
+  "scripts": {
+    "test": "node --test web-tests/*.test.mjs",
+    "check": "node --check docs/app.mjs && node --check docs/lib/web-core.mjs"
+  }
+}
